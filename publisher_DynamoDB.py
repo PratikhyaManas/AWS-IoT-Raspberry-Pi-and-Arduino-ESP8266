@@ -40,13 +40,13 @@ mqttc.on_message = on_message                               # assign on_message 
 #function written by you
 
 #### Change following parameters #### 
-awshost = "a252np1o22gleq-ats.iot.us-east-1.amazonaws.com"      # Endpoint
+awshost = "XXXXXXXXXX-ats.iot.us-east-1.amazonaws.com"      # Endpoint
 awsport = 8883                                              # Port no.   
 clientId = "IoT_Test"                                     # Thing_Name
 thingName = "IoT_Test"                                    # Thing_Name
-caPath = "AmazonRootCA1.pem.crt" #Amazon's certificate from Third party                                     # Root_CA_Certificate_Name
-certPath = "14cccc7820-certificate.pem.crt"   # <Thing_Name>.cert.pem.crt. Thing's certificate from Amazon
-keyPath = "14cccc7820-private.pem.key"        # <Thing_Name>.private.key Thing's private key from Amazon
+caPath = "XXXXXXXXXXCA1.pem.crt" #Amazon's certificate from Third party                                     # Root_CA_Certificate_Name
+certPath = "XXXXXXXXXX-certificate.pem.crt"   # <Thing_Name>.cert.pem.crt. Thing's certificate from Amazon
+keyPath = "XXXXXXXXXX-private.pem.key"        # <Thing_Name>.private.key Thing's private key from Amazon
  
 mqttc.tls_set(caPath, certfile=certPath, keyfile=keyPath, cert_reqs=ssl.CERT_REQUIRED, tls_version=ssl.PROTOCOL_TLSv1_2, ciphers=None)  # pass parameters
  
