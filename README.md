@@ -1,11 +1,8 @@
 # AWS-IoT-Raspberry_Pi & Arduino-8266
-############################################ 
+ 
 # PROBLEM STATEMENT:
-# This program will publish test mqtt messages using the AWS IOT hub
+This program will publish test mqtt messages using the AWS IOT hub
 
-############################################
-
-############################################
 # STEPS:
 
 1. Sign in to AWS Amazon > Services > AWS IoT > Settings > copy Endpoint
