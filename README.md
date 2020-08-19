@@ -16,7 +16,7 @@ This program will publish test mqtt messages using the AWS IOT hub
     e. certPath  (<Thing_Name>.cert.pem)
     f. keyPath   (<Thing_Name>.private.key)
  
-3. Paste aws_iot_pub.py & aws_iot_sub.py python scripts in folder where all aws key files are kept. 
-5. Run publisher.py script
+3. Keep all the files in folder where all aws key files are kept. 
+4. Run publisher_dynamodb.py script
 
 
